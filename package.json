@@ -1,0 +1,26 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahbub798/11_Note_Taker_MR.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mahbub798/11_Note_Taker_MR/issues"
+  },
+  "homepage": "https://github.com/mahbub798/11_Note_Taker_MR#readme"
+}
