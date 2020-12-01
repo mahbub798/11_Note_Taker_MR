@@ -7,8 +7,6 @@
 
 Created an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
-
 * The following HTML routes created:
 
   * GET `/notes` - return the `notes.html` file.
@@ -23,7 +21,7 @@ Created an application that can be used to write, save, and delete notes. This a
 
   * POST `/api/notes` - receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
 
-  * DELETE `/api/notes/:id` - receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+  * DELETE `/api/notes/:id` - receive a query parameter containing the id of a note to delete. 
 
 ## User Story
 
@@ -66,7 +64,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
   If you have any questions about the repo, open an issue or contact mahbub798 directly mahbub798@gmail.com.
 
-    ## Mock-Up
+  ## Mock-Up
 
 The following image demonstrates how the application looks like:
 
